@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cad-view > canvas{
+  border:1px solid black;
+}
+
+.uploadBtn{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
